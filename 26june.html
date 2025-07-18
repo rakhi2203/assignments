@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .header{
+            height: 100px;
+            width: 100%;
+            background: rgb(65, 235, 187);
+            
+        }
+        .class ul li{
+            height: 60px;
+            width: 350px;
+            background-color: rgb(44, 151, 135);
+            text-align: center;
+            padding: 5px;
+            list-style: none;
+            border: 1px solid black;
+            float: left;
+        }
+
+        .class ul li:hover{
+            background-color: rgb(183, 255, 0);
+
+        }
+
+        .class ul ul{
+            margin-right:  70px;
+            margin-top: 8px;
+        }
+        .class ul ul ul{
+            margin-left: 105px;
+            margin-top: 7px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="class">
+            <ul>
+                <li>home</li>
+                <li>Work</li>
+                <li>About
+                    <ul>
+                       <li>View</li>
+                       <li>Deploy</li>
+                       <li>Record</li>
+                       <li>Withdrawal</li>
+                            <ul>
+                                <li>lecture1</li>
+                                <li>lecture2</li>
+                                <li>lecture3</li>
+                            </ul>
+                        </li>
+                        
+                    </ul>
+                </li>
+                <li>Contact</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
